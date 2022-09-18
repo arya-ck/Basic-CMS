@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+}
+.body-container {
+	display: flex;
+	flex-direction: row;
+	min-height: calc(100% - 9rem);
+	background: linear-gradient(#e6f2ff, #e6e6ff);
+}
+nav {
+	width: 20%;
+}
+header {
+	background: linear-gradient(#9999ff, #e6f2ff);
+    height: 8rem;
+}
+header h1 {
+	padding: 30px 50px;
+}
+nav * {
+	font-weight: bold;
+}
+nav a, a:visited {
+	color: black;
+}
+#content {
+	width:80%;
+}
+footer{
+    text-align: center;
+    padding: 0.5em;
+    border-top: 1px solid blue;
+}
+a.selected {
+	color: brown;
+}
+.pages, .subjects{
+	list-style-type: none;
+}
+.pages-collapsed {
+	display: none;
+}
+.admin-container {
+	padding: 0 2.5em;
+	min-height: calc(70% - 2em);
+}
+.menu {
+	list-style-type: none;
+}
+table.subjects, table.pages {
+	margin: 1em 0;
+	width: 100%;
+}
+table.subjects thead tr th, table.pages thead tr th {
+	border-bottom: 1px solid black;
+	background-color: aliceblue;
+}
+table.subjects td, table.subjects th, table.pages td, table.pages th, table.form td, table.form th {
+	padding: 1em;
+}
+table.form {
+	margin: 1em 0;
+}
+table.form td:first-child, table.form th:first-child {
+	padding-left:0;
+}
+table.form td, table.form th {
+	text-align: left;
+}
+input[type="submit"] {
+	padding: 1em 2em;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.message {
+	width: 100%;
+    margin: 1em 0;
+    background-color: lightgreen;
+    padding: .5em;
+}
+select {
+	width: 100%;
+    padding: 0.5em;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}
